@@ -55,9 +55,9 @@
           
         </ul>
       </li>
-      <li ><a href="agenda.php">Agregar contacto</a></li> 
-      <li><a href="ver.php"> ver y Eliminar contacto</a></li>
-      <li><a href="buscar.php"> buscar</a></li> 
+      <li ><a href="">resgistrar</a></li> 
+      <li><a href=""> comparar</a></li>
+       
 
     </ul>
   </div>
