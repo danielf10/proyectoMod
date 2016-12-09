@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
   <title></title>
@@ -30,21 +30,30 @@
   margin:5%; 
  }
 
- #imagen{
-  background-image: url("call.jpg");
+ img{
+  display: inline-block;
  }
+ #d{
+  background-image: url(piz.jpg);
+  width: 100%;
+  padding: 5%;
+ }
+ 
+ 
 </style>
 
 <div class="container">
+ <div id="d">videogame</div>
+  
 
   
-<img src="call.jpg">
+
 
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Agenda</a>
+      <a class="navbar-brand" href="#">Pizzas</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="home.php">Home</a></li>
@@ -55,13 +64,14 @@
           
         </ul>
       </li>
-      <li ><a href="">resgistrar</a></li> 
-      <li><a href=""> comparar</a></li>
+      <li ><a href="">regitrar</a></li> 
+      <li><a href="">Menu</a></li>
        
 
     </ul>
   </div>
 </nav>
+<center><img  src="pizza.jpg"></center>
 
 
 
@@ -71,7 +81,6 @@
 
 
 
-</table>
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
