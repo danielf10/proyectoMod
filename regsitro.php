@@ -38,7 +38,9 @@
   width: 100%;
   padding: 5%;
  }
- 
+ #lol{
+  width: 30%;
+ }
  
 </style>
 
@@ -56,7 +58,7 @@
       <a class="navbar-brand" href="#">Pizzas</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="home.php">Home</a></li>
+      <li class="active"><a href="index.php">Home</a></li>
       <li class="dropdown">
         <
         <span class="caret"></span></a>
@@ -64,7 +66,8 @@
           
         </ul>
       </li>
-      <li ><a href="">regitrar</a></li> 
+      <li ><a href="regsitro">regitrar</a></li> 
+      <li><a href="">iniciar sesion</a> </li>
       <li><a href="">Menu</a></li>
        
 
@@ -77,12 +80,19 @@
 
 
 
-<form  action="guardar.php" method="post"  role="form" name="form"   >
+<form id="lol" action="guardar.php" method="post"  role="form" name="form"   >
   
-  	 <div >
-      <label for="inputNombre">id</label>
-      <input  type="text" class="form-control" placeholder="id" name="id"  required>
+
+
+
+
+    <div >
+      <label for="inputlogin">login</label>
+      <input  type="text" class="form-control" placeholder="login" name="login"  required>
     </div>
+
+
+  	 
 
 
     <div >
@@ -96,14 +106,19 @@
     </div>
 
     <div >
-      <label for="inputNombre">Telefono de casa</label>
-      <input type="text" class="form-control" placeholder="Numero" name="casa" required>
+      <label for="inputNombre">Telefono</label>
+      <input type="text" class="form-control" placeholder="Numero" name="tel" required>
     </div>
     
+    
     <div >
-      <label for="inputNombre">Telefono tarabajo</label>
-      <input type="text" class="form-control" placeholder="Numero" name="trabajo"  required>
+      <label for="inputcontra">contraseña</label>
+      <input  type="password" class="form-control" placeholder="contraseña" name="contraseña"  required>
     </div>
+
+    
+
+
     <div >
       <label for="inputEmail">Email</label>
       <input  type="email" class="form-control" placeholder="email" name="correo"  required>
@@ -112,6 +127,8 @@
         
       </div>
     </div>
+
+    
 
     <input type="submit" value="registrar" class="btn btn-primary">
   </form>
